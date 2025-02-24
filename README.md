@@ -1,4 +1,4 @@
-# Tic-Tac-Toe React Project
+# Tic-Tac-Toe
 
 A simple Tic-Tac-Toe game built with React, featuring both Player vs. Player and Player vs. AI modes. The AI comes with adjustable difficulty levels (easy, medium, hard). The game includes sound effects and a responsive UI.
 
