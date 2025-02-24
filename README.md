@@ -61,11 +61,11 @@ AI Logic
 
 ## Main Functions:
 
--handleClick: Handles player moves, checks for winners, and updates the board.
--minimax: The algorithm used in Hard mode to evaluate the best move for the AI.
--calculateWinner: Checks if there is a winner after a move.
--renderSquare: Renders individual squares on the board.
--toggleAI: Toggles the AI mode and opens the difficulty selection modal.
+- handleClick: Handles player moves, checks for winners, and updates the board.
+- minimax: The algorithm used in Hard mode to evaluate the best move for the AI.
+- calculateWinner: Checks if there is a winner after a move.
+- renderSquare: Renders individual squares on the board.
+- toggleAI: Toggles the AI mode and opens the difficulty selection modal.
 
 ## Dependencies
 - react: JavaScript library for building user interfaces.
