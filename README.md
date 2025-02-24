@@ -37,7 +37,9 @@ You can play the game directly from the deployed link below:
 3. Start the development server:
    ```bash
    npm start
+
 ## How to Play
+
 Click on any empty square to place your move.
 The game alternates between X and O.
 If AI mode is enabled, the AI will make a move after your turn.
@@ -47,27 +49,28 @@ AI Logic
 - Easy Mode: The AI picks a random available square.
 - Medium Mode: The AI tries to block you from winning and will attempt to make winning moves.
 - Hard Mode: The AI uses the Minimax algorithm, which explores all possible moves and selects the optimal one to maximize its chances of winning or minimize the chances of losing.
+
 ## App Structure
 
 ## State Variables:
 
-- board: Represents the 3x3 grid of the Tic-Tac-Toe board.
-- xIsNext: Boolean flag indicating whether it’s 'X' or 'O' turn.
-- winner: Stores the winner ('X', 'O', or null for no winner).
-- winningLine: Array of indices representing the winning line on the board.
-- isAIMode: Boolean flag indicating whether AI is enabled.
-- difficulty: Stores the difficulty level of the AI.
-- showModal: Controls the visibility of the AI difficulty selection modal.
+- **board**: Represents the 3x3 grid of the Tic-Tac-Toe board.
+- **xIsNext**: Boolean flag indicating whether it’s 'X' or 'O' turn.
+- **winner**: Stores the winner ('X', 'O', or null for no winner).
+- **winningLine**: Array of indices representing the winning line on the board.
+- **isAIMode**: Boolean flag indicating whether AI is enabled.
+- **difficulty**: Stores the difficulty level of the AI.
+- **showModal**: Controls the visibility of the AI difficulty selection modal.
 
 ## Main Functions:
 
-- handleClick: Handles player moves, checks for winners, and updates the board.
-- minimax: The algorithm used in Hard mode to evaluate the best move for the AI.
-- calculateWinner: Checks if there is a winner after a move.
-- renderSquare: Renders individual squares on the board.
-- toggleAI: Toggles the AI mode and opens the difficulty selection modal.
+- **handleClick**: Handles player moves, checks for winners, and updates the board.
+- **minimax**: The algorithm used in Hard mode to evaluate the best move for the AI.
+- **calculateWinner**: Checks if there is a winner after a move.
+- **renderSquare**: Renders individual squares on the board.
+- **toggleAI**: Toggles the AI mode and opens the difficulty selection modal.
 
 ## Dependencies
-- react: JavaScript library for building user interfaces.
-- lucide-react: Icon library for UI elements.
-- tailwindcss: Utility-first CSS framework.
+- **react**: JavaScript library for building user interfaces.
+- **lucide-react**: Icon library for UI elements.
+- **tailwindcss**: Utility-first CSS framework.
